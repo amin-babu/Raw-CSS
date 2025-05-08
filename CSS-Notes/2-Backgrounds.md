@@ -2,11 +2,11 @@
 
 When using the shorthand property the order of the property values is:
 
-background-color
-background-image
-background-repeat
-background-attachment
-background-position
+background-color,
+background-image,
+background-repeat,
+background-attachment,
+background-position,
 
 Example:
 
