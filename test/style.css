@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p{
+  color: blue;
+  font-size: 20px;
+}
+
+#first{
+  width: 100%;
+  background-color: rgb(44, 44, 44);
+  height: 100vh;
+}
+
+
+#second{
+  width: 100%;
+  height: 400px;
+  background: url('./paper.jpg') no-repeat fixed center;
+}
+
+#third{
+  width: 100%;
+  height: 400px;
+  background-color: red;
+}
