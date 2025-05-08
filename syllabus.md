@@ -8,7 +8,7 @@
 5. Fonts ✅
 6. Links ✅
 7. Lists ✅
-8. Tables 
+8. Tables ✅
 9. Display 
 10. Position 
 11. z-index 

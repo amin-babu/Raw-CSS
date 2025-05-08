@@ -1,13 +1,16 @@
-ul{
-  list-style: inside;
-  margin: 0;
-  background-color: palevioletred;
-  padding: 10px;
+table {
+  /* border: 1px solid black; */
+  border-collapse: collapse;
+  width: 50%;
 }
 
-li{
-  background-color: #663232;
-  padding: 10px;
-  margin: 5px 0;
-  color: white;
+td, th {
+  border-bottom: 1px solid black;
+  padding: 5px;
+  vertical-align: bottom;
 }
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
