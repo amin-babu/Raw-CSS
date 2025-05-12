@@ -1,16 +1,11 @@
-table {
-  /* border: 1px solid black; */
-  border-collapse: collapse;
-  width: 50%;
+html{
+  
 }
 
-td, th {
-  border-bottom: 1px solid black;
-  padding: 5px;
-  vertical-align: bottom;
+.container{
+  font-size: 2rem;
 }
 
-tr:nth-child(even) {
-  background-color: #f2f2f2;
+.container > p{
+  font-size: 2em;
 }
-
