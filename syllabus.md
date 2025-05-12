@@ -21,9 +21,9 @@
 18. Forms & Layouts ✅
 19. Flexbox 
 20. Grid 
-21. CSS Units 
-22. Shadows 
-23. Gradients 
+21. CSS Units ✅
+22. Shadows ✅
+23. Gradients ✅
 24. Transitions 
 25. Animations 
 26. Specificity 
