@@ -25,6 +25,7 @@
 22. Shadows ✅
 23. Gradients ✅
 24. Transitions 
-25. Animations 
-26. Specificity 
+25. Transforms
+26. Specificity ✅
+27. Animations 
 

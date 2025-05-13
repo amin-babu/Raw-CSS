@@ -1,12 +1,13 @@
-div{
-  width: 20rem;
-  height: 24em;
-  transition: 0.5s;
-  background-color: rgb(0, 151, 20);
-  box-shadow: 10px 10px 10px 10px red ;
-  margin: 5rem;
+h1{
+  width: 200px;
+  height: 200px;
+  background-color: darkred;
+  color: whitesmoke;
+  transition: width 2s linear 1s, height 3s ease 2s, font-size 4s ease-in-out 3s;
 }
 
-
-div:hover{
+h1:hover{
+  width: 400px;
+  font-size: 5rem;
+  height: 600px;
 }
