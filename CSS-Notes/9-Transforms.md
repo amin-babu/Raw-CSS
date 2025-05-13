@@ -3,7 +3,7 @@
 ## CSS 2D Transforms
 
  - translate()
- - rotate()
+ - rotate() - 3D
  - scale()
  - skew()
  - matrix()
@@ -20,11 +20,26 @@ div:hover{
 
 ### rotate() Function
 
+
+*rotateX is top to bottom*
+
 div:hover{
-  transform: rotate(-15deg);
+  transform: rotateX(-15deg);
 }
 
-*rotate() function doesn't have x or y axis. It Only rotates by posetive and negative value* 
+*rotateY is left to right*
+
+div:hover{
+  transform: rotateY(-15deg);
+}
+
+*rotateZ is Normal Rotate*
+
+div:hover{
+  transform: rotateZ(-15deg);
+}
+
+Note: rotateZ & rotate both are same
 
 
 ### scale() Function
@@ -52,3 +67,5 @@ div:hover{
 div:hover{
   transform: matrix(1, 0, 0, 2, 40, -50);
 }
+
+
