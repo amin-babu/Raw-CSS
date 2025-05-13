@@ -11,7 +11,7 @@
  #### transition-property & transition-duration
 
  div{
-  width:100px;
+  width:100px;  
   transition: width 4s;
  }
 
