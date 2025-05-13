@@ -9,7 +9,7 @@
  - matrix()
 
 
-### translate() Function
+## translate() Function
 
 It moves the element's postion in left, right, bottom, top
 
@@ -18,7 +18,7 @@ div:hover{
 }
 
 
-### rotate() Function
+## rotate() Function
 
 
 *rotateX is top to bottom*
@@ -42,7 +42,7 @@ div:hover{
 Note: rotateZ & rotate both are same
 
 
-### scale() Function
+## scale() Function
 
 It increases or dicreases the size
 
@@ -51,14 +51,14 @@ div:hover{
 }
 
 
-### skewX() Function
+## skewX() Function
 
 div:hover{
   transform: skew(20deg, 20deg);
 }
 
 
-### matrix() Function
+## matrix() Function
 
 *The matrix() function combines all the 2D transform functions into one.*
 
