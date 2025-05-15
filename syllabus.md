@@ -27,5 +27,5 @@
 24. Transitions ✅
 25. Transforms ✅
 26. Specificity ✅
-27. Animations 
+27. Animations ✅
 
