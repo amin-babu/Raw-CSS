@@ -1,57 +1,11 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body{
-  background-color: #13121D;
-  padding: 1rem;
-}
-
-.container{
-  background-color: #161926;
-  width: 80vw;
-  height: 500px;
-  padding: 1rem;
+.container {
   display: flex;
-  flex-flow: row wrap;
-  gap: 1em;
+  width: 250px;
+  background-color: blue;
+  padding: 1rem;
+  gap: 1rem;
 }
-
-.container div{
-  color: white;
-  border-radius: 4px;
-  padding: 16px 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  flex: 1 1 200px;
-  text-align: center;
-}
-
-.item:nth-child(odd){
-  background-color: #EF3E66;
-}
-
-.item:nth-child(even){
-  background-color: #16A9B5;
-}
-
-.one {
-  width: 80px !important;
-}
-
-.two {
-  width: 50px !important;
-}
-
-.three {
-  width: 120px !important;
-}
-
-.four {
-  width: 100px !important;
-}
-
-.five{
-  width: 150px !important;
+.item {
+  flex-basis: 100px;
+  background-color: blueviolet;
 }

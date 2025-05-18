@@ -149,5 +149,6 @@
 
     - flex: flex-grow flex-shrink flex-basis;
     - flex: 1 1 200px;
+    - Use `flex-basis` instead of `width` in Flexbox to make the child's size flexible.
 
 
