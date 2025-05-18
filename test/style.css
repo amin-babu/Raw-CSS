@@ -11,13 +11,11 @@ body{
 
 .container{
   background-color: #161926;
-  width: 100%;
-  height: calc(100vh - 2rem);
+  width: 80vw;
+  height: 500px;
   padding: 1rem;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
-  align-content: center;
   gap: 1em;
 }
 
@@ -26,10 +24,8 @@ body{
   border-radius: 4px;
   padding: 16px 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  min-width: 100px;
-  width: 100px;
+  flex: 1 1 200px;
   text-align: center;
-  height: 60px;
 }
 
 .item:nth-child(odd){
@@ -38,4 +34,24 @@ body{
 
 .item:nth-child(even){
   background-color: #16A9B5;
+}
+
+.one {
+  width: 80px !important;
+}
+
+.two {
+  width: 50px !important;
+}
+
+.three {
+  width: 120px !important;
+}
+
+.four {
+  width: 100px !important;
+}
+
+.five{
+  width: 150px !important;
 }

@@ -8,7 +8,7 @@
 
  1. flex-direction
  2. flex-wrap
- 3. flex-flow
+ 3. flex-flow - shothand
  4. justify-content
  5. align-items
  6. align-content
@@ -40,7 +40,7 @@
 
 
 
- ### 3. flex-flow
+ ### 3. flex-flow - shorthand
 
  *flex-direction + flex-wrap = flex-flow*
 
@@ -79,5 +79,75 @@
   5.4 - {align-items: center} = every items will be at the center in the line. It follows cross axis
  
  ### 6. align-content
- 
+
    *align-content property as like as  justify-content. The difference is justify-content works as main axis and align-content works cross axis. everything is same*
+
+
+
+
+
+
+
+
+
+
+## Flexbox Items Property
+
+  *Flexbox Items properties are concern about the order, width, and height of child elements*
+  
+  1. order
+  2. flex-grow
+  3. flex-shrink
+  4. flex-basis
+  5. flex - shorthand
+
+  ## 1. Order
+    
+    *order property's default valus is 0*
+
+    - Lowest valus's element will the fisrt item of the container
+    - Biggest valus's element will be the last item of the container
+
+    .one{
+      order: 1; //it will be fist 
+    }
+
+    .two{
+      order: 5; //it will be last
+    } 
+  
+  ## 2. flex-grow
+
+    *flex-grow property distribute the remaining space equaly to fullfill the row*
+
+    - flex-grow default value is 0
+    - when we set 1 as value, it distributes the remaining spaces to fulfill the row
+    - it increases the fixed width to remove the remaining spacecs to fullfill the row
+
+  ## 3. flex-shrink
+
+    *flex-shrink property is the opposite of flex-grow*
+
+    *it dicreases the fixed width to fullfill the row*
+
+    *But flex-shrink default value is 1. which is why it decreases the item's width to fullfill the row.  When we set flex-shrink:0 it will follow the fixed value*
+
+    *To check the example of flex-shrik - may be I have to use nowrap*
+
+    div{
+      flex-shrink:0;
+    }
+
+  
+  ## 4. flex-basis
+
+    - flex-basis is kind of width and min-width
+    - but min-width doesn't decrease the with case its fixed
+    - flex-basis can decrease the width if necessary
+
+  ## 5. flex - shorthand
+
+    - flex: flex-grow flex-shrink flex-basis;
+    - flex: 1 1 200px;
+
+
