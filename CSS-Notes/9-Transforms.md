@@ -15,7 +15,7 @@ It moves the element's postion in left, right, bottom, top
 
 div:hover{
   transform: translate(40px, 60px);
-}
+} 
 
 
 ## rotate() Function
