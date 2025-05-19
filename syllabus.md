@@ -19,7 +19,7 @@
 16. Pseudo-classes & Pseudo-elements ✅
 17. Opacity ✅
 18. Forms & Layouts ✅
-19. Flexbox 
+19. Flexbox ✅ (Needed 2 days to learn)
 20. Grid 
 21. CSS Units ✅
 22. Shadows ✅

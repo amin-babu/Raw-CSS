@@ -144,6 +144,7 @@
     - flex-basis is kind of width and min-width
     - but min-width doesn't decrease the with case its fixed
     - flex-basis can decrease the width if necessary
+    - If you set both width and flex-basis, flex-basis overrides width.
 
   ## 5. flex - shorthand
 
