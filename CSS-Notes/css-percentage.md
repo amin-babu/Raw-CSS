@@ -1,7 +1,7 @@
 # CSS Percentage Behavior
 
 ## 1. Padding & Margin (%)
-- Percentages are based on the **parent element’s width**.
+- Padding & Margin (%) are based on the **parent element’s width**.
 - ✅ Even vertical sides (top/bottom) use the **parent's width**.
 - Example: Parent width = 400px, `padding: 10%` → all sides = 40px.
 
