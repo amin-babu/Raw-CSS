@@ -66,10 +66,11 @@ div {
   animation-delay: 2s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+  animation-fill-mode: forwards;
 }
 
 To shortand:
 
 div {
-  animation: example 5s linear 2s infinite alternate;
+  animation: example 5s linear 2s infinite alternate forwards;
 }
