@@ -60,13 +60,13 @@
 The example below uses six of the animation properties:
 
 div {
-  animation-name: example;
-  animation-duration: 5s;
-  animation-timing-function: linear;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-fill-mode: forwards;
+  animation-name: example; <br>
+  animation-duration: 5s; <br>
+  animation-timing-function: linear; <br>
+  animation-delay: 2s; <br>
+  animation-iteration-count: infinite; <br>
+  animation-direction: alternate; <br>
+  animation-fill-mode: forwards; <br>
 }
 
 To shortand:
